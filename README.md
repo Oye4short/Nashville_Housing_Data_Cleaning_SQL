@@ -4,10 +4,10 @@ This SQL script focuses on cleaning and enhancing data in the "NashvilleHousing"
 **View Data** <br>
         Retrieves all columns from "NashvilleHousing" for initial inspection.
 
-**Standardize Date Format** <br>
+**Standardize Date Format.** <br>
         Converts the "SaleDate" column to a consistent date format.
 
-**Populate Property Address Data** <br>
+**Populate Property Address Data.** <br>
         Fills null values in the "PropertyAddress" column by updating them with non-null values from other records with the same "ParcelID."
 
 **Break Out Address into Individual Columns**<br>
